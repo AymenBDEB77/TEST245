@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class BoiteObjet<T> {
     private ArrayList<T> contenu; //Une ArrayList<T> pour stocker les objets de type T
     // Constructeur pour initialiser la liste
+    //Constructeur par défaut
     public BoiteObjet() {
         this.contenu = new ArrayList<>();
     }
